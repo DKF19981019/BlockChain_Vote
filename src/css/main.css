@@ -1,0 +1,18 @@
+/* ==========================================================================
+   red-bag
+   ========================================================================== */
+.red_bag{width:100%;height:1020px;position:relative;}
+.red_bg_1{background:url(../img/red-bag/hby_bg.jpg) no-repeat;background-size:cover;position:absolute;}
+.red_bag .div{width:100%;min-height:100%;position:relative;overflow:hidden;	/*margin-top: 20px;*/z-index:1001;}
+.red_bag .div > div{left:0!important;top:0!important;}
+.red_bag .cloud{width:100%;height:172px;bottom:0;position:absolute;z-index:10000001;background:url(../img/red-bag/hby_img_clould.png) no-repeat;}
+.red_bag .div .dd{width:174px;height:174px;position:absolute;!important;top:50%;left:50%;background-image:url(../img/red-bag/home_btn_hby_bubble.png);background-repeat:no-repeat;background-size:174px 174px;}
+.red_bag .div .dd1{top:20%;}
+.red_bag .div .dd{top:40%;cursor:pointer;z-index:104;}
+.red_bag .dd .tt{width:174px;text-align:center;height:174px;position:relative;display:inline-block;text-align:center;padding-top:50px;webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.fancy-overlay{background:rgba(0,0,0,.45);position:fixed;width:100%;height:100%;top:0;left:0;z-index:1002;}
+.pop-box{width:300px;height:200px;text-align:center;background:#fff;margin:200px auto;}
+.pop-box img{width:100px!important;height:104px!important;background-size:contain;}
+.pop-box h5{color:#575757;font-size:20px;text-align:center;font-weight:normal;text-transform:none;position:relative;}
+.pop-box .btn{font-family:Arial,Helvetica,sans-serif;background-color:#fc1471;color:white;border:none;box-shadow:none;font-size:17px;font-weight:500;border-radius:5px;padding:6px 20px;margin:26px 5px 0 5px;cursor:pointer;box-shadow:none;outline:none;}
+.red_bag .fly_1{position:absolute;left:1900px;top:100px;z-index:103;}

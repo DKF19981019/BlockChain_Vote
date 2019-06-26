@@ -1,0 +1,99 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    font-size: 62.5%;
+
+}
+body{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    margin: 0 3px;
+}
+.main-box{
+    margin:5% auto 0;
+    background:#e8ccff;
+    width:380px;
+    padding: 25px;
+    border-radius: 3%;
+    opacity:0.8;
+    position: relative;
+    left: 220px;
+}
+
+.form-control,.btn{
+    border-radius: 3;
+}
+.vcode{
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+}
+.form-header{
+    font-family:  Microsoft Yahei;
+    margin: 0 0 10px;
+    text-align: center;
+
+}
+.form-header img{
+    height: 48px;
+    width: 48px;
+}
+.extra{
+    font-size: 20px;
+    display: inline-block;
+    margin:10px 10px 0 0;
+}
+.box{
+    margin:5% auto 0;
+    background:#fff2df;
+    width:1080px;
+    height: 667px;
+    padding: 25px;
+    border-radius: 3%;
+    opacity:0.8;
+    position: relative;
+    left: 220px;
+    top: 20px;
+}
+.box_add{
+    margin:5% auto 0;
+    background:#FAB8E3;
+    /*background:#e8ccff;*/
+    width:1080px;
+    height: 520px;
+    padding: 25px;
+    border-radius: 3%;
+    opacity:0.8;
+    position: relative;
+    left: 220px;
+
+}
+.box_vote{
+    margin:5% auto 0;
+    background:#70f3ff;
+    /*background:#e8ccff;*/
+    width:1080px;
+    height: 800px;
+    padding: 25px;
+    border-radius: 3%;
+    opacity:0.8;
+    position: relative;
+    left: 220px;
+    top: 30px;
+}
+.footer{
+    position: relative;
+    left:500px;
+    color: #FFFFFF;
+}
+.panel_top{
+    top: 0px;
+}
+.panel{
+    margin-top: 20px
+}

@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>投票</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--    <link rel="stylesheet" href="../css/demo.css" />-->
+    <link rel="stylesheet" href="css/templatemo-style.css">
+     <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+</head>
+  </head>
+  <body>
+  <!-- <script type="text/javascript" color="255,0,0" opacity='0.7' zIndex="-2" count="200" src="./js/canvas-nest.js"></script> -->
+<div id="particles-js"></div>
+<ul class="cb-slideshow">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<div class="container-fluid">
+    <div class="row cb-slideshow-text-container ">
+        <div class= "tm-content col-xl-6 col-sm-8 col-xs-8 ml-auto section">
+            <div class="container" >
+  <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation top">
+    <!-- banner begin -->
+    <div class="container-fluid top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <h1>Vote System Mobile <span class="label label-warning">BlockChain</span></h1>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-menu">
+      <ul class="nav navbar-nav navbar-right ">
+      <li id="click"><a href="index.html" class="glyphicon glyphicon-home"  ></a></li>
+      <li id="click"><a href="#" class="glyphicon glyphicon-refresh"  ></a></li>
+      </ul>
+    </nav>
+    <!-- banner end -->
+
+                <div class="box_vote">
+                    <!-- <h1 style="color: #000000">Starting Page</h1> -->
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2>
+            Voting
+        </h2>
+    </div>
+    <div class="panel-body">
+      <div id="content" >
+          <p style="float: left;margin-bottom: 10px;" id="accountAddress" class="test-center"></p>
+            <table class="table table-bordered list">
+                <thead> 
+                  <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Names</th>
+                      <th scope="col">Votes</th>
+                  </tr>
+                </thead>
+                <tbody id="candidatesResults">
+                </tbody>
+            </table>
+
+            <hr/>
+            <!-- 投票 -->
+            <form onsubmit="App.castVote();return false;">
+              <div class="form-group">
+                <label for="cadidatesSelect">Please decide your choices：</label>
+                <select class="form-control input-lg" style="color: #000000" id="cadidatesSelect" >
+                </select>
+              </div>
+                
+              <button style="float: right;" type="submit" class="btn btn-success btn-lg">Confirm</button>
+            </form>
+<a class="glyphicon glyphicon-arrow-left" href="javascript:history.back(-1)" style="color: #000000"></a>
+          </div>
+    </div>
+</div>
+<br>
+                      <h3><p id="accountAddress" class="test-center" style="color: #000000"></p></h3>
+
+</div>
+<h4 class="footer">Copyright©Mobile Develop of Tuesday morning @Group15</h4>
+              
+               
+
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+    $(function() {
+        App.initVote();
+    });
+    </script>
+  </body>
+</html>
+
+<style> .test-center {
+    text-align: center;
+}
+.white{
+    color: #ffffff;
+}
+.main{
+    position: relative;
+
+    left: 250px;
+}
+</style>
